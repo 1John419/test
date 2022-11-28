@@ -17,7 +17,7 @@ const bodyClick = (event) => {
 const paragraphClick = (paragraph) => {
   navigator.clipboard.writeText(paragraph.innerHTML).then(
     () => {
-      console('done');
+      console.log('done');
     },
     () => {
       console.log('error');
